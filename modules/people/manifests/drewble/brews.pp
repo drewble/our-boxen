@@ -7,8 +7,8 @@ class people::drewble::brews {
     'drush',
     'node',
     'php55',
-    'postgresql'
-    'sqlite'
+    'postgresql',
+    'sqlite',
   ]
 
   package { $_packages:
