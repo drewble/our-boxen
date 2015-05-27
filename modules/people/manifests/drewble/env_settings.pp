@@ -42,5 +42,5 @@ class people::drewble::env_settings {
   class { 'osx::sound::interface_sound_effects': enable => false,}
 
   # Safari Settings
-  include include osx::safari::enable_developer_mode
+  include osx::safari::enable_developer_mode
 }
