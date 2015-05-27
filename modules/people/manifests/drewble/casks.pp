@@ -10,11 +10,11 @@ class people::drewble::casks {
     'amazon-music',
     'cord',
     'sublime-text',
-    'totalterminal'
+    'totalterminal',
     'itsycal',
     'fontprep',
     'sequel-pro',
-    'filezilla'
+    'filezilla',
   ]
   package { $_packages:
     ensure          => present,
