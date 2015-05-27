@@ -7,7 +7,6 @@ class people::drewble::brews {
     'drush',
     'node',
     'php55,
-    'postgresql',
     'sqlite',
   ]
 
@@ -25,4 +24,3 @@ class people::drewble::brews {
   php::version { '5.4': }
 
 }
-
