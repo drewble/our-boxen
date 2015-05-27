@@ -10,6 +10,11 @@ class people::drewble::brews {
     'sqlite',
   ]
 
+  package { $_packages:
+    ensure   => present,
+    provider => homebrew,
+  }
+
   homebrew::tap {
     'nviennot/tmate':
     } -> package { 'tmate':
