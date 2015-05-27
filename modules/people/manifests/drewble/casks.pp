@@ -8,7 +8,6 @@ class people::drewble::casks {
     'xquartz',
     'google-chrome',
     'amazon-music',
-    'google-drive',
     'cord',
     'sublime-text',
     'totalterminal'

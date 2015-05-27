@@ -1,8 +1,5 @@
 class people::drewble::brews {
   $_packages = [
-    'curl',
-    'openssl',
-    'tmux',
     'brew-cask',
     'drush',
     'node',
