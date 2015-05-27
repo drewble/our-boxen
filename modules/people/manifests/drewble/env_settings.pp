@@ -27,7 +27,7 @@ class people::drewble::env_settings {
   include osx::dock::disable_dashboard
   include osx::dock::clear_dock
   include osx::dock::hot_corner { 'Bottom Right':
-    action => 'Put Display to Sleep'
+    $action => 'Put Display to Sleep'
   }
   class { 'osx::dock::magnification':
     magnification => true,
