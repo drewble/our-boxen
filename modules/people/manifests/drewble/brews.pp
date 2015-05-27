@@ -1,6 +1,5 @@
 class people::drewble::brews {
   $_packages = [
-    'brew-cask',
     'drush',
     'node',
     'php55',
@@ -19,6 +18,8 @@ class people::drewble::brews {
     ensure => present,
   }
 
+  include brewcask
+  
   # Install php 5.4
   php::version { '5.5': }
 
