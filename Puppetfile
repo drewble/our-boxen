@@ -60,11 +60,11 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-# github "elasticsearch", "2.7.2"
+github "elasticsearch", "2.7.2"
 github "mysql",           "2.0.1"
 github "postgresql",    "3.0.3"
 github "redis",           "3.1.0"
-# github "sysctl",        "1.0.1"
+github "sysctl",        "1.0.1"
 github "php",             "2.0.0"
 github "bash",        "1.1.0"
 github "fonts",       "0.0.3"
