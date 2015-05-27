@@ -1,4 +1,4 @@
-class people::rclements::casks {
+class people::drewble::casks {
   $_packages = [
     'gimp',
     'postgres',
