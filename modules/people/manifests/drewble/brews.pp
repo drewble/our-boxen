@@ -6,7 +6,8 @@ class people::drewble::brews {
     'brew-cask',
     'drush',
     'node',
-    'php55,
+    'php55',
+    'postgresql'
     'sqlite',
   ]
 
